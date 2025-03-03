@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'RETRO';
+    src: url(fonts/RETROTECH.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --Retro: 'RETRO';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    size: 52px;
+    color: white;
+    text-align: center;
+}
+
+/* la background */
+.index-bg {
+    background-image: url(/img/fondoretro.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 52px;
+    font-family: var(--Retro);
+    color: white;
+    text-align: center;
+}
+
+/* la tabla */
+
+.tablero {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(62, 59, 59);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.celda {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: grey;
+    border-style: groove;
+    background-color: rgb(62, 59, 59);
+}
+
+/* este es el marcador */
+
+.marcador {
+    background-color: black;
+    border: 5px solid black;
+    border-bottom-color: white;
+}
+
+.span1 {
+    font-size: 40px;
+    font-family: var(--Retro);
+    color: red;
+}
+
+.span2 {
+    font-size: 32px;
+    font-family: var(--Retro);
+    color: white;
+    margin-right: 50px;
+}
+
+.fila1 {
+    background-color: rgb(62, 59, 59);
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+.fila2 {
+    background-color: rgb(239, 5, 5);
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+.fila3 {
+    background-color: rgb(239, 216, 5);
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+.fila4 {
+    background-color: blue;
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+.fila5 {
+    background-color: violet;
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+.fila6 {
+    background-color: green;
+    border: 1px outset grey;
+    border-radius: 2px;
+}
+
+.cursor {
+    background-image: url(/img/barra.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
